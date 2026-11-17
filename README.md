@@ -17,14 +17,11 @@ Team TUM placed joint sixth and was selected as a Tier 1 team. On the hidden
 | Brain outlier score | 0.0249 | 8 |
 | Mean rank | **6.25** | **joint 6** |
 
-## Release status
+## Reproducibility release
 
-The challenge rules impose a three-month publication embargo after MICCAI
-2026. MICCAI ended on 1 October 2026, so the inference code and weights are
-prepared for public release after 1 January 2027. The methodology PDF is
-already public under the challenge-paper exception.
-
-The release is reconstructed from the exact organizer-tested image
+This release follows the BIC-MAC organizers' request for participating teams to
+open-source their inference code and, where possible, their training code. It is
+reconstructed from the exact organizer-tested image
 `bicmac-e582-e612:dry-run-20260810`, not from later research code. Its inference
 sources are under [`src/champion`](src/champion), and the checkpoint manifest is
 [`configs/runtime-closure.json`](configs/runtime-closure.json).
@@ -42,7 +39,7 @@ tests/                     lightweight release checks
 ```
 
 The 11 checkpoints are distributed separately because they total about 1.61 GB
-uncompressed. After the embargo they will be available from
+uncompressed. They are prepared for release from
 [`ziyuan-li/bic-mac-tum-e612`](https://huggingface.co/ziyuan-li/bic-mac-tum-e612).
 
 ## Environment
