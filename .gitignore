@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+dist/
+build/
+
+# Model checkpoints are distributed through Hugging Face, not Git.
+model/
+*.pt
+*.pth

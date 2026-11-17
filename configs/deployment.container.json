@@ -1,0 +1,44 @@
+{
+  "background_workers": 3,
+  "candidate": "E569/E577",
+  "checkpoints": {
+    "e06_projected_topogram": "/app/model/e06/last.pt",
+    "e08_pet_surrogate": "/app/model/e08/last.pt",
+    "e13_acf_fold0": "/app/model/e13-fold0/best-objective.pt",
+    "e13_acf_fold1": "/app/model/e13-fold1/best-objective.pt",
+    "e13_acf_fold2": "/app/model/e13-fold2/best-objective.pt",
+    "e13_acf_fold3": "/app/model/e13-fold3/best-objective.pt",
+    "e13_acf_fold4": "/app/model/e13-fold4/best-objective.pt",
+    "e13_acf_full75": "/app/model/e13-full75/last.pt",
+    "e24_rank_ct": "/app/model/e24/last.pt",
+    "e40_refiner_seed1": "/app/model/e40/last.pt",
+    "e43_refiner_seed2": "/app/model/e43/last.pt"
+  },
+  "device": "cuda:0",
+  "features_dir": "/data/features",
+  "fold_crop_start": 144,
+  "head_exact_start": 370,
+  "head_refiner_crop_start": 288,
+  "inference_module": "champion.e577_e570_axial_window_pruning",
+  "minimum_cpu_context_slices": 64,
+  "network_forward_count": 13,
+  "output_ct": "/data/output/ct.nii.gz",
+  "output_files": [
+    "ct.nii.gz"
+  ],
+  "overlap": 0.25,
+  "projection_workers": 4,
+  "roi_size": [
+    192,
+    192,
+    192
+  ],
+  "runtime_report": "/tmp/e577-runtime-report.json",
+  "schema": "bicmac-e569-e577-deployment/v1",
+  "sw_batch_size": 1,
+  "transition": [
+    370,
+    390
+  ],
+  "unique_checkpoint_count": 11
+}

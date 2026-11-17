@@ -1,0 +1,17 @@
+{
+  "schema": "bicmac-tum-release-provenance/v1",
+  "final_image": "bicmac-e582-e612:dry-run-20260810",
+  "archive": {
+    "name": "e612-e582-e577-runlog-compatible-dry-run.tar.gz",
+    "bytes": 5407592927,
+    "sha256": "67d3c45b66c04720c46e0407d0536b678788b691e2f6445b850ac2d0d0e83f42",
+    "url": "https://drive.google.com/file/d/1BuqtBtCMoaA3ddaMx0z7TSynmvNHZATj/view?usp=sharing"
+  },
+  "oci_layers": {
+    "inference_source": "eeec09e563b8a09b5f58ce7a283bac28443e8a976da182e3aec8be122add49d6",
+    "model": "4082819816fb905f8c45c3592ca9cff8c6596496911d86a66928d49ab01c780e",
+    "output_compatibility": "bb75f2abee4593377daccf78233256d9bdd66f02e97d6d6eae21d01ef339f9e2"
+  },
+  "organizer_status": "completed successfully within the per-subject time limit",
+  "scientific_candidate": "E569/E577 packaged by E580, output-compatible E612"
+}

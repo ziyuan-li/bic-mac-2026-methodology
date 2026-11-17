@@ -1,0 +1,109 @@
+{
+  "candidate": "E569/E577 packaged by E580",
+  "checkpoint_count": 11,
+  "config_count": 11,
+  "models": [
+    {
+      "checkpoint": "e06/last.pt",
+      "checkpoint_bytes": 169492645,
+      "checkpoint_sha256": "a2bd5caf4ffef0959c5c8399d0234c2bc5d65bad5ddbc353680557035ac052f9",
+      "config": "e06/config.json",
+      "config_bytes": 3358,
+      "config_sha256": "53b8d0b7ec7b58d25c3511841ab10e74ffffa698117d432c5be0651b9d27c00c",
+      "family": "e06_projected_topogram"
+    },
+    {
+      "checkpoint": "e08/last.pt",
+      "checkpoint_bytes": 169492645,
+      "checkpoint_sha256": "bef95610bf2599019a4a2a6531571f9af8acaddc6c30268ecab0d6079f0b9eed",
+      "config": "e08/config.json",
+      "config_bytes": 3396,
+      "config_sha256": "71a23f39617d9a3c215b08e72b2f9b825c30cfc1371e574f935518369acbab88",
+      "family": "e08_pet_surrogate"
+    },
+    {
+      "checkpoint": "e13-fold0/best-objective.pt",
+      "checkpoint_bytes": 169513649,
+      "checkpoint_sha256": "308011b495e99386b8734ee05b935b2380a2eb1543130a0a44f8135717014180",
+      "config": "e13-fold0/config.json",
+      "config_bytes": 1927,
+      "config_sha256": "4b5c5f91c74acd61319b55f3c2c7d7c625596be22b01f8b01b9182c2a058a1b2",
+      "family": "e13_acf_fold0"
+    },
+    {
+      "checkpoint": "e13-fold1/best-objective.pt",
+      "checkpoint_bytes": 169513649,
+      "checkpoint_sha256": "6f84ce84e46f7a254f96db4c07d1eb732a34d0bc154ac41e167ac62b48549b30",
+      "config": "e13-fold1/config.json",
+      "config_bytes": 1927,
+      "config_sha256": "7417d260294d0dde199b5b90ac7e1344b18fa77d307731fb35a6e0cb61842673",
+      "family": "e13_acf_fold1"
+    },
+    {
+      "checkpoint": "e13-fold2/best-objective.pt",
+      "checkpoint_bytes": 169513649,
+      "checkpoint_sha256": "0948665f5b96119fd155fb9475d70cfd1c43911add71732aa7c855881c2b085f",
+      "config": "e13-fold2/config.json",
+      "config_bytes": 1927,
+      "config_sha256": "07d6f1bbf52a539b36ce532c61fabcb349ab0973a82aaca25596c3a4f8c64b54",
+      "family": "e13_acf_fold2"
+    },
+    {
+      "checkpoint": "e13-fold3/best-objective.pt",
+      "checkpoint_bytes": 169513649,
+      "checkpoint_sha256": "ed9605204fc299de59bd32d97ebaff16edc90887f0d30b35657a53189029b51d",
+      "config": "e13-fold3/config.json",
+      "config_bytes": 1927,
+      "config_sha256": "568488eec1ab25aa1986f521d073ad8c5a565d8dbb8bc7dced797a038106f91a",
+      "family": "e13_acf_fold3"
+    },
+    {
+      "checkpoint": "e13-fold4/best-objective.pt",
+      "checkpoint_bytes": 169513649,
+      "checkpoint_sha256": "f6c470246b873f83a90e41344dbec12e990f044b20c79cea4c32036244de3ebe",
+      "config": "e13-fold4/config.json",
+      "config_bytes": 1927,
+      "config_sha256": "6ada5c17d1e3bd211723e935e85672d19ba87e1a8dee3be02258de600292284a",
+      "family": "e13_acf_fold4"
+    },
+    {
+      "checkpoint": "e13-full75/last.pt",
+      "checkpoint_bytes": 169492645,
+      "checkpoint_sha256": "44d39d3c7cd76d6662c65cfbcfacef6fea32347e35ae20f812bc0eae7ef15cab",
+      "config": "e13-full75/config.json",
+      "config_bytes": 3383,
+      "config_sha256": "b2cc7484b8cae8747763dd91ebf27a0e7990b13f42cbacb374c2c9ad417aaccc",
+      "family": "e13_acf_full75"
+    },
+    {
+      "checkpoint": "e24/last.pt",
+      "checkpoint_bytes": 169492645,
+      "checkpoint_sha256": "ff75ba7448b435c495bfc17265925ea1aacd3ae14d3ee24987fb9c316a529b29",
+      "config": "e24/config.json",
+      "config_bytes": 3378,
+      "config_sha256": "951c6c24bf6a647aa8a6bd58fa88b02e8ab6f82cc44c2855ff1908188b92d6f4",
+      "family": "e24_rank_ct"
+    },
+    {
+      "checkpoint": "e40/last.pt",
+      "checkpoint_bytes": 42010585,
+      "checkpoint_sha256": "252789b9aa276317407ae72ebe5d041973e5b0d44661e5d04ee37179fffe4fd6",
+      "config": "e40/config.json",
+      "config_bytes": 3843,
+      "config_sha256": "70caa02da6ac0fd75fee253fa055940e5665139e2ca4b99d5c41eb4cf13a5dc7",
+      "family": "e40_refiner_seed1"
+    },
+    {
+      "checkpoint": "e43/last.pt",
+      "checkpoint_bytes": 42010585,
+      "checkpoint_sha256": "d09ef4e650c55c64325c086094e896cd73d6615338ba3e8c5f6111f2a65806b2",
+      "config": "e43/config.json",
+      "config_bytes": 3843,
+      "config_sha256": "e27ec5f2cfd61ccf4bbce767da5eb50ade1ab127acc5e67863b8132854ba63b6",
+      "family": "e43_refiner_seed2"
+    }
+  ],
+  "runtime_graph_changed": false,
+  "schema": "bicmac-e580-runtime-closure/v1",
+  "scientific_candidate_changed": false
+}

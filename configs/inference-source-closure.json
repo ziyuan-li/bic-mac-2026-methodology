@@ -1,0 +1,137 @@
+{
+  "schema": "bicmac-tum-inference-source-closure/v1",
+  "image": "bicmac-e582-e612:dry-run-20260810",
+  "file_count": 26,
+  "files": [
+    {
+      "path": "__init__.py",
+      "bytes": 62,
+      "sha256": "5054c47a94f8ccff3389cee0c14b5125c68dfc9e2d571dfe8ac84f3ec7127ad6"
+    },
+    {
+      "path": "apply_projection_calibration.py",
+      "bytes": 6658,
+      "sha256": "f6a3bd6ac6d8e026e4241d2ae316603bb2c5c0d500b28230fb2f9c34675f06a8"
+    },
+    {
+      "path": "blend_frequency_fold_predictions.py",
+      "bytes": 6400,
+      "sha256": "1ecbb94ed84832165e349456dd0aee075178755fb4d179104f78a44479cf5618"
+    },
+    {
+      "path": "blend_tissue_fold_residuals.py",
+      "bytes": 6285,
+      "sha256": "94f10def2ff2ea677417c31b8afcedb2ffe86919e9c82b3ba94f9169eb89f06f"
+    },
+    {
+      "path": "container_inference.py",
+      "bytes": 25685,
+      "sha256": "80f61e150d423308000246154c5f26eff34dd5b35bbfaaecb0bb6bf387fdc3ba"
+    },
+    {
+      "path": "data.py",
+      "bytes": 17730,
+      "sha256": "732cbfc081494d2b15f6be6d1bc862fcf3fb4ea01d16fda1ca90046c969d7446"
+    },
+    {
+      "path": "e566_e13_fold_ensemble_inference.py",
+      "bytes": 13079,
+      "sha256": "b6dcbd0f343dc294099c9fa0bbf6388bdeb1a435bd907a9357e4811fef59155c"
+    },
+    {
+      "path": "e569_fixed_head_hybrid.py",
+      "bytes": 5725,
+      "sha256": "ae7dc00c5f121c152a015ba5431dc6cbe3798e32a54a7e5daf46dd2d987a8a95"
+    },
+    {
+      "path": "e577_e570_axial_window_pruning.py",
+      "bytes": 23724,
+      "sha256": "3b101e44de51e5984b52b44b2d70c5c35f5b9cb3709e4df13d5fc96be1d52acd"
+    },
+    {
+      "path": "e578_container_entrypoint.py",
+      "bytes": 5915,
+      "sha256": "e12fbc250cf6b4eeeddd30d11d90f7f0eb289965b9d6f008022ae12ca4e42df0"
+    },
+    {
+      "path": "e580_container_entrypoint.py",
+      "bytes": 3740,
+      "sha256": "444e736888239e763b095c96e623d12d5d7978b5c3e43ed72ff9431dc366326d"
+    },
+    {
+      "path": "e77_six_family_inference_v2.py",
+      "bytes": 19673,
+      "sha256": "ed17723264dcb07e7d5a4fe82991162a6976e772c634c536b8278c5269919ca6"
+    },
+    {
+      "path": "e77_six_family_inference_v3.py",
+      "bytes": 18181,
+      "sha256": "f38e7b040c801b5cbf23623a7568f467c7dd05f7df79de961b7b11e52bbcee53"
+    },
+    {
+      "path": "e77_six_family_inference_v4.py",
+      "bytes": 13574,
+      "sha256": "e6fb9d0a8bb549390a878c572c276b51e0542b43663216cc627741143a8464f4"
+    },
+    {
+      "path": "evaluate_cached.py",
+      "bytes": 10252,
+      "sha256": "b6c3ccd434a1fc48415c671dbd382aa566e141b85766cb21a02cdc2e76db4163"
+    },
+    {
+      "path": "export_cached_ct.py",
+      "bytes": 2106,
+      "sha256": "3ff8b40da9bef3e1d81914d52dbb32ab07694d596ec318914e1a2634ea1f0851"
+    },
+    {
+      "path": "frequency_blend.py",
+      "bytes": 13956,
+      "sha256": "2f524ab6f2735d0096d5c3b9a1843dcc529e930be964f2068e071a5cb245b2f4"
+    },
+    {
+      "path": "model.py",
+      "bytes": 14246,
+      "sha256": "a2aae6c373159654738c47cd15f8c4a94747de6b98a95e03e2a2d1362e764bcc"
+    },
+    {
+      "path": "mu_calibration.py",
+      "bytes": 14590,
+      "sha256": "2527ff259a8ac4f5072f60b066c23e6dc1d2c8c46dc2afea30066ff29d883ee5"
+    },
+    {
+      "path": "prepare_cache.py",
+      "bytes": 5765,
+      "sha256": "e71faefb92eb857dea10f24806ac16e231fa7566cde7b51f239b5b5beb7fc10e"
+    },
+    {
+      "path": "prepare_mri_cache.py",
+      "bytes": 4778,
+      "sha256": "9bbbff928715586e0b0cfb8ae1975307307a4ac9d946ee19d2e40fdd23d2814e"
+    },
+    {
+      "path": "projection_blend.py",
+      "bytes": 16067,
+      "sha256": "6fa5b461a518bdb66dc6eb5d5fa2124b38b033a717fa8e2d4cd9c13b7b68699f"
+    },
+    {
+      "path": "refiner.py",
+      "bytes": 12045,
+      "sha256": "a93585c3207deac2c820e7c03acf5a63fd508e0f83943ad58be4f682c185f6fb"
+    },
+    {
+      "path": "safety_gated_refiner.py",
+      "bytes": 7887,
+      "sha256": "79a83a19d9b217b502abefb66049807095197c1adcf0625344633b265055b0b5"
+    },
+    {
+      "path": "spatial_blend.py",
+      "bytes": 11923,
+      "sha256": "8f6aa3a30b47fd40815e629301591e1f938dc47d83e4321c6ac108c315b81dcc"
+    },
+    {
+      "path": "tissue_blend.py",
+      "bytes": 19822,
+      "sha256": "6a21ed3ed86b9d421b5943669787da1223bd4d00f9e091759c296582ef4582ca"
+    }
+  ]
+}

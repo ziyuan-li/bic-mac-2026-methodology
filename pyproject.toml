@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bicmac-tum"
+version = "1.0.0"
+description = "Team TUM's BIC-MAC 2026 mu-map inference implementation"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+  {name = "Ziyuan Li"},
+  {name = "Feng Li"},
+  {name = "Juncheng Ni"},
+]
+dependencies = [
+  "monai==1.5.2",
+  "nibabel==5.3.3",
+  "numpy",
+  "scipy==1.18.0",
+  "tqdm==4.67.3",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the methodology paper."
+title: "Physics-Aware Branched Mu-Map Ensembles for Total-Body PET Attenuation Correction"
+type: software
+authors:
+  - family-names: Li
+    given-names: Ziyuan
+    affiliation: Technical University of Munich
+  - family-names: Li
+    given-names: Feng
+    affiliation: Technical University of Munich
+  - family-names: Ni
+    given-names: Juncheng
+    affiliation: Technical University of Munich
+repository-code: "https://github.com/ziyuan-li/bic-mac-2026-methodology"
+date-released: 2027-01-02
+version: 1.0.0
+keywords:
+  - PET attenuation correction
+  - pseudo-CT
+  - multimodal medical imaging
+  - BIC-MAC
