@@ -17,11 +17,9 @@ Team TUM placed joint sixth and was selected as a Tier 1 team. On the hidden
 | Brain outlier score | 0.0249 | 8 |
 | Mean rank | **6.25** | **joint 6** |
 
-## Reproducibility release
+## Reproducibility
 
-This release follows the BIC-MAC organizers' request for participating teams to
-open-source their inference code and, where possible, their training code. It is
-reconstructed from the exact organizer-tested image
+The inference implementation is reconstructed from the exact organizer-tested image
 `bicmac-e582-e612:dry-run-20260810`, not from later research code. Its inference
 sources are under [`src/champion`](src/champion), and the checkpoint manifest is
 [`configs/runtime-closure.json`](configs/runtime-closure.json).
