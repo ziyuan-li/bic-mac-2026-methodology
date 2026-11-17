@@ -6,7 +6,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 WORKDIR /app
 
-COPY docker/requirements.txt /tmp/champion-requirements.txt
+COPY requirements.txt /tmp/champion-requirements.txt
 RUN pip install --no-cache-dir --break-system-packages \
     -r /tmp/champion-requirements.txt
 
